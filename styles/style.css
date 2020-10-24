@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'bold';
+  src: url(Montserrat-Medium.otf);
+}
+
+@font-face {
+  font-family: 'light';
+  src: url(Quicksand-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  min-height: 110vh!important;
+  height: fit-content;
+}
+
+h1,
+h2,
+h3,
+h4,
+label, thead{
+  font-family: 'bold';
+}
+
+p,
+small,
+span,
+a,
+button,
+li,
+ul,
+ol,tbody {
+  font-family: 'light';
+  list-style: none;
+  text-decoration: none;
+}
+
+input,
+button {
+  margin: auto;
+  width: 95% !important;
+  font-family: light;
+
+}
+
+label {
+  padding: 10px 10px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'light';
+  color: gray;
+  font-size: 1rem;
+}
+
+
+.alert{
+  width: 95% !important;
+  /* height: 9vh!important; */
+  padding: 8px 0!important;
+  margin: auto!important;
+}
+
+.alert h1{
+  font-size: 1rem!important;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+thead{
+  font-size: .9rem!important;
+}
